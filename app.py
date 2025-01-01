@@ -1,10 +1,6 @@
-import utils
-from utils import Utils
+from utils import find_max
 
-numbers = [2,5,1,10]
-maximum = numbers[0]
+my_list = [10,2,50,30,100]
+find_max(my_list)
 
-
-for number in numbers:
-    my_function = Utils(max_mum=maximum, number=number)
 
